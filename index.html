@@ -27,12 +27,12 @@
                         <button onClick={this.handleClick}>
                           {this.state.isToggleOn ? 'ON' : 'OFF'}
                         </button>
-                    );                    
+                    );
                 }
             }
 
             ReactDOM.render(
-                <p>Hello from React!</p>,
+                <Toggle />,
                 document.getElementById('root')
             );
         })();
